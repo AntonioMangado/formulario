@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+
+
+
+<body>
+
+    <header>
+        <nav>
+            <a href="../index.html">Home</a>
+            <p>¿Te han robado una bici? Pincha <a href="#">aquí</a></p>
+        </nav>
+    </header>
+
+</body>
+
+    <main>
+        <section id="intro-bici">
+            <h2>¿Te han robado la bici?</h2>
+            <p>Rellena este formulario para informarnos:</p>
+        </section>
+
+        <section id="form-bici">
+            <form action="">
+                <label for="date">Fecha:</label>
+                <input type="date"> <br>
+
+                <label for="time">Hora:</label>
+                <input type="time" name="time" id="time"> <br>
+
+                <label for="color">Color:</label>
+                <input type="color" name="color" id="color"> <br>
+                <br>
+
+                <label for="price">Precio (entre 0€ y más de 400€)</label> <br>
+                <input type="range" name="prince-range" id="price-range" min="0" max="400+"><br>
+                <br>
+
+                <label for="bike-select">Dinos el tipo de bicicleta</label>
+                <select name="bikes" id="bike-select">
+                    <option value="">--Please choose an option--</option>
+                    <option value="paseo">Bici de paseo</option>
+                    <option value="montaña">Bici de montaña</option>
+                    <option value="carreras">Bici de carreras</option>
+                </select> <br>
+                <br>
+
+                <label for="accesorios">Accesorios:</label><br>
+                <input type="checkbox" id="accesorio1" name="accesorio1" value="ruedines">
+                <label for="accesorio1"> Ruedines</label><br>
+                <input type="checkbox" id="accesorio2" name="accesorio2" value="pegatinas">
+                <label for="accesorio2"> Pegatinas</label><br>
+                <input type="checkbox" id="accesorio3" name="accesorio3" value="cestita">
+                <label for="accesorio3"> Cestita</label><br>
+                <input type="checkbox" id="accesorio4" name="accesorio4" value="bomba-de-aire">
+                <label for="accesorio4"> Bomba de aire</label><br>
+                <input type="checkbox" id="accesorio5" name="accesorio5" value="timbre">
+                <label for="accesorio5"> Timbre</label><br>
+                <input type="checkbox" id="accesorio6" name="accesorio6" value="foco">
+                <label for="accesorio6"> Foco</label><br>
+
+                <input type="submit" class="submit-button">
+            </form>
+        </section>
+    </main>
+
+
+</html>

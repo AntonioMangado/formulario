@@ -1,0 +1,17 @@
+nav > p {
+    display: inline;
+    padding-left: 10px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+#viejuner {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    margin-top: 20px;
+}
